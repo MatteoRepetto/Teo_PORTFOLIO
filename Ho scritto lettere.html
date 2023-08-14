@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="Works.html" id="back__logo"><img src="/images/back.png" alt="back" class="back__button"></a>
+            <div class="navbar__title" id="mobile-menu">
+                <p>HO SCRITTO LETTERE</p>
+            </div>
+        </div>
+    </nav> 
+
+
+<div class="singleWork__content">
+    <p class="intro__text">
+        “Ho scritto lettere piene d’amore“ collects some of Ungaretti's famous poems about World War I. For
+        each there is a photograph, which metaphorically summarizes the contents. The photographs are central to the project, as
+        they are work produced for a photography course.
+        Matches are present in each photo and represent the precariousness of soldiers in the trenches. The font chosen is meant to
+        recall the letters typed.
+    </p>
+    <div class="libro__preview">
+        <img src="images/07_ho scritto lettere/06_cover.png" class="libro_overviewImg" alt="Ungaretti">
+        <img src="images/07_ho scritto lettere/07_animation.gif" class="libro_overviewGif" alt="Ungaretti">
+    </div>
+    <div class="photo__list">
+            <img src="images/07_ho scritto lettere/01_Veglia.png" alt="Ungaretti" class="poem_img">
+            <img src="images/07_ho scritto lettere/02_fratelli.png" alt="Ungaretti" class="poem_img">
+            <img src="images/07_ho scritto lettere/03_inDormi.png" alt="Ungaretti" class="poem_img">
+            <img src="images/07_ho scritto lettere/04_SanMartino.png" alt="Ungaretti" class="poem_img">
+            <img src="images/07_ho scritto lettere/05_soldati.png" alt="Ungaretti" class="poem_img">
+    </div>
+    <p class="intro__text">
+        Date of realisation: 2021 <br>
+        Software used: Lightroom, Photoshop. <br>
+        Project type: University - Milan Polytechnic, Visual Communication Design
+        (Photography course). <br>
+        Role: Photo realization, content layout, post-production.
+    </p>
+</div>
+<button onclick="topFunction()" id="toTop" title="Go to top"><img src="/images/Top.png" alt="top" class="topBtn"></button>    
+</body>
+
+<script src="app.js"></script> 
+<script>
+    // Get the button:
+let mybutton = document.getElementById("toTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</html>

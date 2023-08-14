@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<div class="circle"></div>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="Works.html" id="back__logo"><img src="/images/back.png" alt="back" class="back__button"></a>
+            <div class="navbar__title" id="mobile-menu">
+                <p>PAROLAB</p>
+                <!-- <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span> -->
+            </div>
+        </div>
+    </nav> 
+    
+    <div class="singleWork__content">
+        <p class="intro__text">
+            ParoLAB is a new way for kids to learn language skills based on reciprocity in the classroom.
+            Aimed at elementary schools with foreign students who have a hard time dealing with the Italian language, the kit features classic board game mechanics to allow Italian and foreign students help each other learning the other’s native language.
+
+            Kids can use the included erasable marker or any other tool they have to personalize and
+            complete the kit and its elements, like playing cards, the dictionary, or even the box itself.
+            Creativity is a great way to engage children: by including them in the game's preparation, they'll
+            be able to play with the words and drawings they like and relate to more.
+        </p>
+        <img src="/images/01_Parolab/07_Parolab.png" alt="parolab" class="parolab__title">
+        <video class="unboxing" controls>
+            <source src="/images/01_Parolab/16_unboxing.mp4" type="video/mp4" /> 
+        </video>
+        <img src="images/01_Parolab/08_personalizzazione.gif" alt="parolab" class="parolab__box">
+        <img src="images/01_Parolab/10_kit.jpg" alt="parolab" class="parolab__box">
+        <div class="div__Parolab">
+            <img src="images/01_Parolab/06_busta.gif" alt="paro" class="busta_gif">
+            <img src="images/01_Parolab/15_busta.png" alt="paro" class="busta_img">
+        </div>
+        <div class="div__Parolab">
+            <img src="images/01_Parolab/01_Dizionario.png" alt="paro" class="dizionario_img">
+            <img src="images/01_Parolab/09_dizionario-personal.gif" alt="paro" class="dizionario_gif">
+        </div>
+        <div class="div__Parolab">
+            <img src="images/01_Parolab/04_Memolab.png" alt="paro" class="memolab_img">
+            <img src="images/01_Parolab/11_memolab-person.gif" alt="paro" class="memolab_gif">
+        </div>
+        <div class="div__Parolab">
+            <img src="images/01_Parolab/12_PICTOLAB-gioco.gif" alt="paro" class="pictolab_gif">
+            <img src="images/01_Parolab/05_Pictolab.png" alt="paro" class="pictolab_img">
+        </div>
+        <div class="div__Parolab">
+            <img src="images/01_Parolab/13_girolab-azione.gif" alt="paro" class="girolab_gif">
+            <img src="images/01_Parolab/03_Girolab.png" alt="paro" class="girolab_img">
+        </div>
+        <div class="div__Parolab">
+            <img src="images/01_Parolab/02_Favolab.png" alt="paro" class="favolab_img">
+            <img src="images/01_Parolab/14_FAVOLAB-personal.gif" alt="paro" class="favolab_gif">    
+        </div>
+        <p class="intro__text">
+            Date of realisation: 2020 - 2021 <br>
+            Software used: Indesign, Illustrator, Photoshop, 3Ds Max studio. <br>
+            Project type: University - Milan Polytechnic, Visual Communication Design
+            (Synthesis Laboratory course). <br>
+            Collaborators: Riccardo Rigamondi, Tancredi Pelà, Valentina Altrocchi. <br> 
+            Role: Design of visual identity, creation of illustrations, construction of analogue prototypes.
+        </p>
+    </div>
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="/images/Top.png" alt="top" class="topBtn"></button>
+</body>
+
+
+
+<script src="app.js"></script> 
+<script>
+    // Get the button:
+let mybutton = document.getElementById("toTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</html>

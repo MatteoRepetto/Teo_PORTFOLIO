@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+<button onclick="topFunction()" id="toTop" title="Go to top"><img src="/images/Top.png" alt="top" class="topBtn"></button>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="Works.html" id="back__logo"><img src="/images/back.png" alt="back" class="back__button"></a>
+            <div class="navbar__title" id="mobile-menu">
+                <p>SPIT IT OUT!</p>
+            </div>
+        </div>
+    </nav> 
+
+    <div class="singleWork__content">
+      <p class="intro__text">
+        “Spit it Out!” site is a common space that presents a diary as collaborative canvas: people will create a masterpiece 
+        of “words traces”. Step by step, at the user will be asked some questions in order to generate a “river of words”. 
+        The final result is an artwork in which all the bad and good feelings dance together.
+      </p>
+      <div class="SIO__intro">
+        <img src="images/05_Spit It Out/05.png" alt="UI" class="SIO__img">
+        <div class="SIO__animations">
+          <img src="images/05_Spit It Out/06.gif" alt="gif" class="SIO_gif">
+          <img src="images/05_Spit It Out/07.gif" alt="gif" class="SIO_gif">
+        </div>
+      </div>
+      <img src="images/05_Spit It Out/03_UX.png" alt="UX" class="SIO__UX">
+      <div class="EIF__imgLink">
+        <video class="SIO__video" controls>
+          <source src="/images/05_Spit It Out/04_video.mov" type="video/mp4"/> 
+        </video>
+        <div class="trytheapp">
+          <a href="https://jessicamoreschi.github.io/Spit-it-Out/" class="extra__link" target="_blank">GO TO THE WEBSITE ➔</a>
+        </div>
+      </div>
+      <p class="intro__text">
+        Date of realisation: 2020 <br>
+        Software used: Atom, p5JS, Illustrator. <br>
+        Project type: University - Milan Polytechnic, Visual Communication Design (Creative Coding course). <br>
+        Collaborators: Alessandra Crippa, Chiara Brambilla, Jessica Moreschi. <br>
+        Role: Visual identity/branding, logo design, UX-UI design. <br>
+      </p>
+    </div>
+
+    
+</body>
+
+<script src="app.js"></script> 
+    <script>
+        // Get the button:
+    let mybutton = document.getElementById("toTop");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+</html>

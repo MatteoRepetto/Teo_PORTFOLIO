@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="Works.html" id="back__logo"><img src="/images/back.png" alt="back" class="back__button"></a>
+            <div class="navbar__title" id="mobile-menu">
+                <p>TODO</p>
+            </div>
+        </div>
+    </nav> 
+
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="/images/Top.png" alt="top" class="topBtn"></button>
+
+  <div class="singleWork__content">
+    <p class="intro__text">
+      TODO is a service designed to assist children with attention deficit disorder (ADHD) and their parents. More precisely, 
+      the artifact aims to assist the child in his daily routine and to offer a tracking service for the activities carried 
+      out by the child for the parent.
+    </p>
+    <div class="EIF__imgLink">
+    <div class="TODOimg__container">
+      <div class="TODO__introimg">
+        <img src="images/06_TODO/13_intro.png" alt="app" class="TODO_phone">
+        <img src="images/06_TODO/14.png" alt="wearable" class="TODO_werable">
+      </div>
+      <img src="images/06_TODO/04.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/05.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/06.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/07.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/08.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/09.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/10.png" alt="TODO" class="TODO__img">
+      <img src="images/06_TODO/11.png" alt="TODO" class="TODO__img">
+      <video class="TODO__video" controls>
+        <source src="images/06_TODO/01_TODO-Video.mp4" type="video/mp4"/> 
+      </video>
+      <video class="TODO__videoOFF" controls autoplay loop playsinline style="pointer-events: none;">
+        <source src="images/06_TODO/02_wireframe.mov" type="video/mp4"/> 
+      </video>
+      <img src="images/06_TODO/12.png" alt="TODO" class="TODO__img">
+      <video class="TODO__videoOFF" controls autoplay loop playsinline style="pointer-events: none;">
+        <source src="images/06_TODO/03_Ui.mov" type="video/mp4"/> 
+      </video>
+    </div>
+    <div class="trytheapp">
+      <a href="https://www.figma.com/proto/IysuxDzlaxx9B7t4UDDh5K/Prototipo-APP?page-id=0%3A1&node-id=168%3A2632&viewport=1333%2C-64%2C0.12&scaling=scale-down&starting-point-node-id=168%3A2632" class="extra__link" target="_blank">TRY THE APP ➔</a>
+    </div>
+    </div>
+    <p class="intro__text">
+      Date of realisation: 2022 <br>
+      Project type: University - Milan Polytechnic, Visual Communication Design (Interaction Design course). <br>
+      Software used: Figma, Illustrator <br>
+      Collaborators: Ana Doric, Eilaf Alharbi, Nicole Moreschi, Wanlin Li <br>
+      Role: Illustrator, UI and UX designer, User testing <br>
+    </p>
+  </div>
+</body>
+
+<script src="app.js"></script>
+<script>
+    // Get the button:
+let mybutton = document.getElementById("toTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</html>

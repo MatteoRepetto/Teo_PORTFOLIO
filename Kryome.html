@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="Works.html" id="back__logo"><img src="/images/back.png" alt="back" class="back__button"></a>
+            <div class="navbar__title" id="mobile-menu">
+                <p>KRYOME</p>
+            </div>
+        </div>
+    </nav> 
+
+    <div class="singleWork__content">
+      <p class="intro__text">
+        Kryome is a hybrid exploration and narrative board game, where players must use the dedicated web app to proceed in the adventure. 
+        The purpose of the game is to reconnect to the network the shelters where the few humans who survived a post-apocalyptic event have stabilized, 
+        trying to overcome the pitfalls that populate the world of Kryome. The game aims to raise awareness on the issue of internet connection and 
+        how many people in the world do not have free access to this technology, which offers several advantages that we too often take for granted. 
+      </p>
+      <div class="kryome__intro">
+        <img src="images/02_Kryome/01_KEYART.png" alt="kryome" class="kryome_art">
+        <img src="images/02_Kryome/07_IMG.jpg" alt="kryome box" class="kryome_img">
+      </div>
+      <video class="unboxing" controls>
+        <source src="/images/02_Kryome/06_Unboxing.mp4" type="video/mp4"/> 
+      </video>
+      <img src="images/02_Kryome/02_Jael.png" alt="Jael" class="kryome__jael">
+      <img src="images/02_Kryome/03_Side Characters.png" alt="others" class="kryome__characters">
+      <img src="images/02_Kryome/04_environments.png" alt="environments" class="kryome__environments">
+      <img src="images/02_Kryome/08_app.png" alt="game_app" class="kryome__app">
+      <div class="printsTrytheapp">
+        <img src="images/02_Kryome/05_prints.png" alt="prints" class="kryome__prints">
+        <div class="trytheapp">
+          <a href="https://jessicamoreschi.github.io/Kryome-Offline/" class="extra__link" target="_blank">TRY THE APP ➔</a>
+          <p class="info">(only for smartphones)</p>
+        </div>
+      </div>
+      <p class="intro__text">
+        Date of realisation: 2022 <br>
+        Software used: Photoshop, Illustrator, Indesign, Atom (javascript), Figma <br>
+        Project type: University - Milan Polytechnic, Visual Communication Design (Interactive Transmedia Narrative for New Media) <br>
+        Collaborators: Elettra Panepinto, Jessica Moreschi, Tancredi Pelà, Yousef Taffal, Xuerong Cai <br>
+        Role: Art director, Character/Environment designer, Packaging designer, Play tester <br>
+      </p>
+
+    </div>
+
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="/images/Top.png" alt="top" class="topBtn"></button>
+</body>
+
+
+
+
+
+
+
+<script src="app.js"></script>
+<script>
+    // Get the button:
+let mybutton = document.getElementById("toTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</html>
