@@ -533,6 +533,14 @@ br::selection {
 
 /* Sezione mainPage */
 
+.Hide__overflow {
+    overflow: hidden;
+}
+
+.Hide__overflowX {
+    overflow-x: hidden;
+}
+
 .mainPage__container {
     display: flex;
     width: 100%;
@@ -637,13 +645,13 @@ br::selection {
     .mainPage__text{
         text-align: center;
         align-content: center;
-        width: 90%;
+        width: 100%;
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-right: 25px;
+        margin-right: 0px;
         display: block;
         align-items: center;
-        padding: 0 0px;
+        padding: 0px 20px 0px 20px;
         font-size: 13px;
     }
 
@@ -659,6 +667,8 @@ br::selection {
             display: block;
             margin: auto;
         }
+
+
     }
 
 
@@ -769,9 +779,13 @@ br::selection {
 
 @media screen and (max-width: 450px) {
     .works__page {
-        padding: 10px 5px 100px 20px;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 20px 15px 0px 15px;
         justify-content: center;
         align-items: center;
+        gap: 0px;
     }
 
     .works__line {
@@ -781,19 +795,20 @@ br::selection {
     }
 
     .works__title {
-        width: 95%;
+        width: 100%;
         height: 25px;
-        padding: 1px 0px 1px 10px;
+        padding: 0px 0px 0px 5px;
         margin-top: 20px;
     }
 
     .work__img {
-        width: 95%;
-        height: 95%;
+        width: 100%;
+        height: 100%;
     }
     
     .works__container {
         gap: 0px;  
+        margin-bottom: 100px;
     }
 
     .work__name {
