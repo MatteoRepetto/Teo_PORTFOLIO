@@ -36,8 +36,6 @@ window.addEventListener("mousemove", (e) => {
 });
 
 
-
-
 //hover work img  SIZE: 1662 x 680 Raster: inch 150, angle 45, frequency 200 NEW SIZE 831 x 340
 document.getElementById("colored__img1").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img1").src = './images/01_Parolab/00_cover2.png'
