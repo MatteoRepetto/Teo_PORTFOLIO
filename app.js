@@ -48,12 +48,30 @@ document.getElementById("colored__img1").addEventListener('mouseout', (event) =>
   document.getElementById("colored__img1").src = './images/01_Parolab/00_cover.png'
 })
 
+document.getElementById("colored__img1").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img1").src = './images/01_Parolab/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img1").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img1").src = './images/01_Parolab/00_cover.png'
+})
+
 document.getElementById("colored__img2").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img2").src = './images/02_Kryome/00_cover2.png'
   console.log('j')
 })
 
 document.getElementById("colored__img2").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img2").src = './images/02_Kryome/00_cover.png'
+})
+
+document.getElementById("colored__img2").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img2").src = './images/02_Kryome/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img2").addEventListener('touchend', (event) => {
   document.getElementById("colored__img2").src = './images/02_Kryome/00_cover.png'
 })
 
@@ -66,7 +84,25 @@ document.getElementById("colored__img3").addEventListener('mouseout', (event) =>
   document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover.png'
 })
 
+document.getElementById("colored__img3").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img3").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover.png'
+})
+
 document.getElementById("colored__img4").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img4").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover.png'
+})
+
+document.getElementById("colored__img4").addEventListener('touchstart', (event) => {
   document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover2.png'
   console.log('j')
 })
@@ -84,12 +120,30 @@ document.getElementById("colored__img5").addEventListener('mouseout', (event) =>
   document.getElementById("colored__img5").src = './images/06_TODO/00_cover.png'
 })
 
+document.getElementById("colored__img5").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img5").src = './images/06_TODO/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img5").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img5").src = './images/06_TODO/00_cover.png'
+})
+
 document.getElementById("colored__img6").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img6").src = './images/08_3D/00_cover3D2.png'
   console.log('j')
 })
 
 document.getElementById("colored__img6").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img6").src = './images/08_3D/00_cover3D.png'
+})
+
+document.getElementById("colored__img6").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img6").src = './images/08_3D/00_cover3D2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img6").addEventListener('touchend', (event) => {
   document.getElementById("colored__img6").src = './images/08_3D/00_cover3D.png'
 })
 
@@ -102,6 +156,15 @@ document.getElementById("colored__img7").addEventListener('mouseout', (event) =>
   document.getElementById("colored__img7").src = './images/03_Green/00_cover2.png'
 })
 
+document.getElementById("colored__img7").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img7").src = './images/03_Green/00_cover.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img7").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img7").src = './images/03_Green/00_cover2.png'
+})
+
 document.getElementById("colored__img8").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img8").src = './images/09_vacanze/00_cover2.png'
   console.log('j')
@@ -111,12 +174,30 @@ document.getElementById("colored__img8").addEventListener('mouseout', (event) =>
   document.getElementById("colored__img8").src = './images/09_vacanze/00_cover.png'
 })
 
+document.getElementById("colored__img8").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img8").src = './images/09_vacanze/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img8").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img8").src = './images/09_vacanze/00_cover.png'
+})
+
 document.getElementById("colored__img9").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover2.png'
   console.log('j')
 })
 
 document.getElementById("colored__img9").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover.png'
+})
+
+document.getElementById("colored__img9").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img9").addEventListener('touchend', (event) => {
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover.png'
 })
 
@@ -144,6 +225,16 @@ document.getElementById("colored__img12").addEventListener('mouseover', (event) 
 })
 
 document.getElementById("colored__img12").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img12").src = './images/11_Robbin/00_cover.png'
+
+})
+
+document.getElementById("colored__img12").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img12").src = './images/11_Robbin/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img12").addEventListener('touchend', (event) => {
   document.getElementById("colored__img12").src = './images/11_Robbin/00_cover.png'
 
 })

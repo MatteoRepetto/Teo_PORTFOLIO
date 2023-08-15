@@ -486,7 +486,7 @@ br::selection {
 
 }
 
-@media screen and (max-width: 550px) { /* AGGIORNA!! */
+@media screen and (max-width: 550px) { 
 
     .footer{
         position: fixed;
@@ -508,7 +508,7 @@ br::selection {
     }
 
     .contacts__social a {
-        margin: 0 5px; /* Aggiungi spazio tra i link */
+        margin: 0 15px; /* Aggiungi spazio tra i link */
     }
 
     .footer__text {
