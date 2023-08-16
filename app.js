@@ -3,6 +3,7 @@ const delay = 250;
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 
+window.screen.orientation.lock('portrait');
 
 menu.addEventListener('click', function() {
     menu.classList.toggle('is-active');
