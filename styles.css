@@ -378,6 +378,24 @@ br::selection {
     z-index: 9999;
   }
 
+#navbar__logo {
+    text-align: center;
+    align-content: left;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 0px;
+}
+
+.navbar__toggle .bar {
+    width: 24px;
+    height: 1px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #000000;
+    margin-right: 10px;
+}
+
   * {
     box-sizing: border-box;
     margin: 0;
@@ -1069,7 +1087,7 @@ br::selection {
 }
 
 .back__button {
-    width: 36px;
+    width: 30px;
 }
 
 .tags {
@@ -1158,7 +1176,7 @@ br::selection {
 }
 
 .intro__text {
-    width: 900px;
+    width: 1000px;
     color: #000;
     font-family: Sora;
     font-size: 15px;
@@ -1170,23 +1188,27 @@ br::selection {
 .Try__it {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 56px;
 }
 
 /* Parolab */
 .parolab__title {
-    width: 700px;
+    width: 800px;
 }
 
 .unboxing {
-    width: 800px;
+    width: 1000px;
     cursor: none;
     pointer-events: auto;
 }
 
 .parolab__box {
     width: 800px;
+}
+
+.parolab__box2 {
+    width: 1200px;
 }
 
 .div__Parolab {
@@ -1196,12 +1218,12 @@ br::selection {
 }
 
 .busta_gif {
-    width: 500px;
+    width: 600px;
     height: auto;
 }
 
 .busta_img {
-    width: 500px;
+    width: 600px;
     height: auto;
     margin-left: -100px;
     background-color: rgba(0, 0, 0, 0);
@@ -1339,15 +1361,15 @@ br::selection {
 }
 
 .kryome__environments {
-    width: 1000px;
+    width: 1200px;
 }
 
 .kryome__prints {
-    width: 1000px;
+    width: 1100px;
 }
 
 .kryome__app {
-    width: 800px;
+    width: 1000px;
 }
 
 .printsTrytheapp {
@@ -1368,15 +1390,15 @@ br::selection {
 }
 
 .TODO__img {
-    width: 900px;
+    width: 1000px;
 }
 
 .TODO__video {
-    width: 900px;
+    width: 1000px;
 }
 
 .TODO__videoOFF {
-    width: 900px;
+    width: 1000px;
 }
 
 .TODO__introimg {
@@ -1402,13 +1424,13 @@ br::selection {
 }
 
 .ArchiveIntro_img {
-    width: 300px;
+    width: 400px;
     transform: rotate(-4.179deg);
     background-color: rgba(0, 0, 0, 0);
 }
 
 .ArchiveIntro_gif {
-    width: 600px;
+    width: 700px;
     margin-left: -100px;
 }
 
@@ -1417,7 +1439,7 @@ br::selection {
 }
 
 .Archive__video {
-     width: 900px;
+     width: 1000px;
 }
 
 .Archive_SUS {
@@ -1426,7 +1448,7 @@ br::selection {
  
 /* EIF */
 .EIF_sketch {
-    width: 900px;
+    width: 1000px;
 }
 
 .EIF__final {
@@ -1434,11 +1456,11 @@ br::selection {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 20px;
 }
 
 .EIF_img {
-    width: 800px;
+    width: 1000px;
 }
 
 .EIF__imgLink {
@@ -1460,19 +1482,19 @@ br::selection {
 }
 
 .Vacanze_imgY {
-    width: 450px;
+    width: 490px;
 }
 
 .Vacanze_imgY2 {
-    width: 425px;
+    width: 462px;
 }
 
 .Vacanze_imgX {
-    width: 825px;
+    width: 950px;
 }
 
 .Vacanze_video {
-    width: 625px;
+    width: 680px;
 }
 
 /* 3D */
@@ -1489,7 +1511,7 @@ br::selection {
 }
 
 .D_img {
-    width: 400px;
+    width: 500px;
 }
 
 .D_video {
@@ -1502,7 +1524,7 @@ br::selection {
 
 /* robbin the crown */
 .Robbin__bozze {
-    width: 800px;
+    width: 1000px;
 }
 
 .Robbin__lvldesign {
@@ -1517,7 +1539,7 @@ br::selection {
 }
 
 .Robbin__anime {
-    width: 800px;
+    width: 900px;
 }
 
 .Robbin__game {
@@ -1530,12 +1552,12 @@ br::selection {
 }
 
 .Robbin_screen {
-    width: 470px;
+    width: 500px;
     
 }
 
 .Robbin_gif {
-    width: 700px;
+    width: 750px;
 }
 
 /* SIO */
@@ -1546,7 +1568,7 @@ br::selection {
 }
 
 .SIO__img {
-    width: 850px;
+    width: 1000px;
 }
 
 .SIO__animations {
@@ -1557,15 +1579,15 @@ br::selection {
 }
 
 .SIO_gif {
-    width: 250px;
+    width: 300px;
 }
 
 .SIO__UX {
-    width:800px;
+    width: 900px;
 }
 
 .SIO__video {
-    width: 900px;
+    width: 1000px;
 }
 
 @media screen and (max-width: 960px) {
@@ -1650,6 +1672,10 @@ br::selection {
     }
 
     .parolab__box {
+        width: 100%;
+    }
+
+    .parolab__box2 {
         width: 100%;
     }
     
@@ -1846,12 +1872,16 @@ br::selection {
         width: 100%;
     }
 
+    .EIF__final {
+        gap: 10px;
+    }
+
     .EIF_sketch {
         width: 100%;
     }
 
     .EIF_img {
-        width: 90%;
+        width: 100%;
     }
 
     .Vacanze__intro {
@@ -1931,7 +1961,7 @@ br::selection {
     }
     
     .Robbin_screen {
-        width: 300px;
+        width: 100%;
         
     }
 
@@ -1962,6 +1992,13 @@ br::selection {
         width: 100%;
     }
     
+    .trytheapp__archive {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -1984,6 +2021,7 @@ br::selection {
 
     .navbar__title{
         font-size: 15px;
+        margin-right: -10px;
     }
 
     .back__button{
