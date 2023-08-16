@@ -1596,6 +1596,7 @@ br::selection {
         font-size: 13px;
         font-style: normal;
         font-weight: 200;
+        width: 100%;
     }
 
     .extra__link {
@@ -1954,6 +1955,18 @@ br::selection {
 }
 
 @media screen and (max-width: 450px) {
+    .singleWork__content {
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 70px;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+
     .navbar__title{
         font-size: 15px;
     }
