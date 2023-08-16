@@ -992,12 +992,13 @@ br::selection {
 }
 
 @media screen and (max-width: 800px){
+    
 
     .aboutPage__container {
         display: block;
         gap: 20px; /* Spazio tra le colonne */
         padding-top: 20px;
-        padding-bottom: 300px;
+        padding-bottom: 0px;
         margin-bottom: 0;
     }
 
@@ -1037,12 +1038,7 @@ br::selection {
 
 @media screen and (max-width: 450px){
     .aboutPage {
-        margin: 0; /* Rimuove il margine predefinito del body */
-        padding: 0px; /* Rimuove il padding predefinito del body */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 100px;
+        padding: 0px;
     }
 
     .download{
