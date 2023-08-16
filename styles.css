@@ -1072,6 +1072,12 @@ br::selection {
     width: 36px;
 }
 
+.tags {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
 .extra__link {
     color: #000000;
     font-size: 15px;
@@ -1126,6 +1132,8 @@ br::selection {
 .singleWork__content {
     display: flex;
     padding: 100px 127px;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
@@ -1439,6 +1447,7 @@ br::selection {
     justify-content: flex-end;
     align-items: center;
     gap: 50px;
+    margin-bottom: -40px;
 }
 
 /* Vacanze */
@@ -1570,6 +1579,11 @@ br::selection {
         padding-right: 25px;
     }
 
+    .tags {
+        font-size: 15px;
+    }
+    
+
     #back__logo {
         padding-left: 50px;
         margin-left: 0px;
@@ -1589,7 +1603,7 @@ br::selection {
     .intro__text {
         color: #000;
         font-family: Sora;
-        font-size: 13px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 200;
         width: 100%;
@@ -1962,6 +1976,10 @@ br::selection {
         align-content: flex-start;
         gap: 80px;
         flex-wrap: wrap;
+    }
+
+    .intro__text {
+        font-size: 13px;
     }
 
     .navbar__title{
