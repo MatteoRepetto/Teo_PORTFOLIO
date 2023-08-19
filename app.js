@@ -218,6 +218,15 @@ document.getElementById("colored__img9").addEventListener('touchend', (event) =>
 //   document.getElementById("colored__img11").src = '/images/12_growmate/00_cover.png'
 // })
 
+// document.getElementById("colored__img11").addEventListener('touchstart', (event) => {
+//   document.getElementById("colored__img11").src = '/images/12_growmate/00_cover2.png'
+//   console.log('j')
+// })
+
+// document.getElementById("colored__img11").addEventListener('touchend', (event) => {
+//   document.getElementById("colored__img11").src = '/images/12_growmate/00_cover.png'
+// })
+
 document.getElementById("colored__img12").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img12").src = './images/11_Robbin/00_cover2.png'
   console.log('j')
