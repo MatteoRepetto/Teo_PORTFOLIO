@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <!-- <div class="navbar__container"> -->
+            <a href="Works.html" id="back__logo"><img src="./images/back.png" alt="back" class="back__button"></a>
+            <div class="navbar__title" id="mobile-menu">
+                <p>VACANZE LIGURI TCG</p>
+            </div>
+        <!-- </div> -->
+    </nav> 
+    
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="./images/Top.png" alt="top" class="topBtn"></button>
+
+    <div class="singleWork__content">
+        <div class="intro__tags">
+        <p class="tags">LAYOUT DESIGN // ILLUSTRATIONS // UX DESIGN // GAME DESIGN</p>
+        <p class="intro__text">
+            "Vacanze Liguri TCG" is a card game concept inspired by Ligurian folklore. Although there is no complete rulebook, 
+            the numerical values have been included with a UX designer's perspective. In fact, they are displayed with a logic for 
+            a possible game mode (e.g. the defence values are rotated to follow the position of the card, and in the top left corner 
+            of each card there is a distinct shape so that you can immediately recognise whether it is an object or a character).
+        </p>
+        </div>
+        <img src="./images/10_Cards/05.png" alt="illustrations" class="Cards__illustration">
+        <img src="./images/10_Cards/06.png" alt="icons" class="Cards__layout">
+        <img src="./images/10_Cards/07.png" alt="ux design" class="Cards__UX">
+        <img src="./images/10_Cards/08.png" alt="ux design" class="Cards__mazzo">
+        <div class="Cards__photos">
+            <div class="Cards__printed">
+                <img src="./images/10_Cards/02.png" alt="mazzo" class="Cards_print">
+                <img src="./images/10_Cards/04.png" alt="mazzo" class="Cards_print">
+            </div>
+            <img src="./images/10_Cards/01_foto.png" alt="photo" class="Cards_cool">
+        </div>
+        <p class="intro__text">
+            Date of realisation: 2023 <br>
+            Project type: Personal experiments / Game design <br>
+            Software used: Clip studio paint, Illustrator <br>
+            Role: Illustrator, UX design, Layout design  <br>
+        </p>
+    </div>
+    
+</body>
+
+<script src="app.js"></script> 
+    <script>
+        // Get the button:
+    let mybutton = document.getElementById("toTop");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+</html>
