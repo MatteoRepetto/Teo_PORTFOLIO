@@ -1192,8 +1192,8 @@ br::selection {
     padding-left: 50px;
     padding-right: 50px;
     justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     gap: 80px;
     flex-wrap: wrap;
 }
@@ -1583,11 +1583,12 @@ br::selection {
 
 .Robbin__game {
     display: flex;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-content: center;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 .Robbin_screen {
@@ -1597,6 +1598,13 @@ br::selection {
 
 .Robbin_gif {
     width: 750px;
+}
+
+.Robbin__lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 /* SIO */
