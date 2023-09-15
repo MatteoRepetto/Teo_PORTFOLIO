@@ -1254,6 +1254,7 @@ br::selection {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .busta_gif {
@@ -1366,14 +1367,14 @@ br::selection {
 
 .photo__list {
     display: flex;
-    width: 1566px;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 120px;
 }
 
 .poem_img {
-    width: 900px;
+    width: 90%;
 }
 
 
@@ -1555,6 +1556,7 @@ br::selection {
 
 .D_video {
   width: 550px;
+  margin: auto;
 }
 
 .D__scans {
@@ -1653,6 +1655,7 @@ br::selection {
 
 .Cards__mazzo {
     width: 700px;
+    align-content: center;
 }
 
 .Cards__photos {
@@ -1875,7 +1878,7 @@ br::selection {
     }
 
     .poem_img {
-        width: 70%;
+        width: 100%;
     }
     
     .poem {
@@ -1896,15 +1899,15 @@ br::selection {
     }
     
     .kryome__jael {
-        width: 90%;
+        width: 100%;
     }
     
     .kryome__characters {
-        width: 90%;
+        width: 100%;
     }
     
     .kryome__environments {
-        width: 90%;
+        width: 100%;
     }
     
     .kryome__prints {
@@ -2042,9 +2045,16 @@ br::selection {
         display: flex;
         align-items: flex-start;
         align-content: flex-start;
-        gap: 10px;
+        gap: 0px;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .Robbin__lists {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
     }
     
     .Robbin_screen {
@@ -2103,6 +2113,10 @@ br::selection {
     
     .Cards__mazzo {
         width: 80%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin:auto;
     }
     
     .Cards__photos {
@@ -2196,7 +2210,6 @@ br::selection {
 
     .Robbin_screen {
         width: 100%;
-        
     }
 
     .SIO__img {
@@ -2209,6 +2222,14 @@ br::selection {
 
     .poem_img {
         width: 100%;
+    }
+
+    .photo__list {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
     }
 
     .D__sculpting {
