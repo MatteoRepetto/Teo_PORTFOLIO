@@ -1412,6 +1412,10 @@ br::selection {
     width: 1000px;
 }
 
+.HTP {
+    width: 1000px;
+}
+
 .printsTrytheapp {
     display: flex;
     flex-direction: column;
@@ -1915,6 +1919,10 @@ br::selection {
     }
     
     .kryome__app {
+        width: 100%;
+    }
+
+    .HTP {
         width: 100%;
     }
 
