@@ -685,7 +685,7 @@ br::selection {
 
 .mainPage__text--container {
     display: flex;
-    width: 60%;
+    width: 50%;
     text-align: left;
     flex-direction: column;
     margin-left: -50px;
