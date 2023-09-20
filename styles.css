@@ -1690,6 +1690,10 @@ br::selection {
     height: 700px;
 }
 
+.Cards_print2 {
+    height: 700px;
+}
+
 .Cards_cool {
     width: 1000px;
 }
@@ -2143,25 +2147,31 @@ br::selection {
         justify-content: center;
         align-items: center;
         align-content: center;
-        margin:auto;
+        margin: auto;
     }
     
     .Cards__photos {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 25px;
+        gap: 15px;
     }
     
     .Cards__printed {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        gap: 25px;
+        gap: 15px;
     }
     
     .Cards_print {
         height: 500px;
+    }
+
+    .Cards_print2 {
+        height: 500px; 
     }
     
     .Cards_cool {
@@ -2270,6 +2280,11 @@ br::selection {
         width: 100%;
     }
 
+    .Cards__mazzo {
+        margin:auto;
+    }
+
+
     .Cards__photos {
         gap: 15px;
     }
@@ -2279,6 +2294,10 @@ br::selection {
     }
     
     .Cards_print {
+        height: 225px;
+    }
+    
+    .Cards_print2 {
         height: 225px;
     }
     
