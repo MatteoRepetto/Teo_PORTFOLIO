@@ -806,7 +806,7 @@ br::selection {
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 100px 60px 50px 60px;
+    padding: 100px 50px 50px 50px;
     justify-content: center;
     align-items: center;
 }
@@ -1130,7 +1130,7 @@ br::selection {
 }
 
 .tags {
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 20px;
     font-weight: 400;
 }
@@ -1223,6 +1223,7 @@ br::selection {
     font-weight: 200;
     line-height: normal;
 }
+
 
 .Try__it {
     display: flex;
@@ -1453,12 +1454,17 @@ br::selection {
 }
 
 .TODO_phone {
-    width: 200px;
+    width: 300px;
     transform: rotate(-9.647deg);
 }
 
 .TODO_werable {
-    width: 150px;
+    width: 250px;
+}
+
+.TODO__img2 {
+    width: 1000px;
+    margin-top: 50px;
 }
 /* The green archive */
 .Archive__intro {
@@ -1570,6 +1576,10 @@ br::selection {
 /* robbin the crown */
 .Robbin__bozze {
     width: 1000px;
+}
+
+.Robbin__imgintro {
+    width: 900px;
 }
 
 .Robbin__lvldesign {
@@ -1696,7 +1706,7 @@ br::selection {
     }
 
     .tags {
-        font-size: 15px;
+        font-size: 17px;
     }
     
 
@@ -1929,7 +1939,12 @@ br::selection {
     .TODO__img {
         width: 100%;
     }
-    
+
+    .TODO__img2 {
+        width: 100%;
+        margin-top: 50px;
+    }
+
     .TODO__video {
         width: 100%;
     }
@@ -2031,6 +2046,10 @@ br::selection {
     }
 
     .Robbin__bozze {
+        width: 100%;
+    }
+
+    .Robbin__imgintro {
         width: 100%;
     }
     
