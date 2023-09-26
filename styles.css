@@ -406,6 +406,12 @@ br::selection {
     scroll-behavior: smooth;
 }
 
+#toTop {
+    bottom: 25px; /* Place the button at the bottom of the page */
+    right: 25px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+  }
+
 .topBtn {
     width: 30px;
 }
