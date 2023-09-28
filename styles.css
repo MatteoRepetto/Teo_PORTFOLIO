@@ -674,6 +674,7 @@ br::selection {
 
 .mainPage__content {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 0px;
     width: 100%;
