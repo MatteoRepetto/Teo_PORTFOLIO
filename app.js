@@ -74,7 +74,7 @@ document.getElementById("colored__img2").addEventListener('touchend', (event) =>
   document.getElementById("colored__img2").src = './images/02_Kryome/00_cover.png'
 })
 
-document.getElementById("colored__img3").addEventListener('mouseover', (event) => {
+/* document.getElementById("colored__img3").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover2.png'
   console.log('j')
 })
@@ -91,6 +91,7 @@ document.getElementById("colored__img3").addEventListener('touchstart', (event) 
 document.getElementById("colored__img3").addEventListener('touchend', (event) => {
   document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover.png'
 })
+ */
 
 document.getElementById("colored__img4").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover2.png'
@@ -128,7 +129,7 @@ document.getElementById("colored__img5").addEventListener('touchend', (event) =>
   document.getElementById("colored__img5").src = './images/06_TODO/00_cover.png'
 })
 
-document.getElementById("colored__img6").addEventListener('mouseover', (event) => {
+/* document.getElementById("colored__img6").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img6").src = './images/08_3D/00_cover3D2.png'
   console.log('j')
 })
@@ -144,7 +145,7 @@ document.getElementById("colored__img6").addEventListener('touchstart', (event) 
 
 document.getElementById("colored__img6").addEventListener('touchend', (event) => {
   document.getElementById("colored__img6").src = './images/08_3D/00_cover3D.png'
-})
+}) */
 
 document.getElementById("colored__img7").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img7").src = './images/03_Green/00_cover.png'
@@ -164,7 +165,7 @@ document.getElementById("colored__img7").addEventListener('touchend', (event) =>
   document.getElementById("colored__img7").src = './images/03_Green/00_cover2.png'
 })
 
-document.getElementById("colored__img8").addEventListener('mouseover', (event) => {
+/* document.getElementById("colored__img8").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img8").src = './images/09_vacanze/00_cover2.png'
   console.log('j')
 })
@@ -180,7 +181,7 @@ document.getElementById("colored__img8").addEventListener('touchstart', (event) 
 
 document.getElementById("colored__img8").addEventListener('touchend', (event) => {
   document.getElementById("colored__img8").src = './images/09_vacanze/00_cover.png'
-})
+}) */
 
 document.getElementById("colored__img9").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover2.png'
@@ -199,15 +200,6 @@ document.getElementById("colored__img9").addEventListener('touchstart', (event) 
 document.getElementById("colored__img9").addEventListener('touchend', (event) => {
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover.png'
 })
-
-// document.getElementById("colored__img10").addEventListener('mouseover', (event) => {
-//   document.getElementById("colored__img10").src = '/images/10_Robots/00_cover2.png'
-//   console.log('j')
-// })
-
-// document.getElementById("colored__img10").addEventListener('mouseout', (event) => {
-//   document.getElementById("colored__img10").src = '/images/10_Robots/00_cover.png'
-// })
 
 document.getElementById("colored__img11").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img11").src = './images/10_Cards/00_cover2.png'
@@ -246,6 +238,26 @@ document.getElementById("colored__img12").addEventListener('touchend', (event) =
   document.getElementById("colored__img12").src = './images/11_Robbin/00_cover.png'
 
 })
+
+/* document.getElementById("colored__img13").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img13").src = './images/12_growmate/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img13").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img13").src = './images/12_growmate/00_cover.png'
+
+})
+
+document.getElementById("colored__img13").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img13").src = './images/12_growmate/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img13").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img13").src = './images/12_growmate/00_cover.png'
+
+}) */
 
 
 
