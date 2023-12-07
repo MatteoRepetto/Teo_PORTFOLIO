@@ -674,16 +674,19 @@ br::selection {
 
 .mainPage__content {
     display: flex;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     gap: 0px;
     width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
     
 }
 
 .main__img {
     margin-right: -50px;
-    width: 780px;
+    width: 50%;
     text-align: center;
     align-content: center;
     display: block; 
@@ -692,12 +695,11 @@ br::selection {
 
 .mainPage__text--container {
     display: flex;
-    width: 50%;
-    text-align: left;
+    width: 65%;
+    text-align: center;
     flex-direction: column;
-    margin-left: -50px;
-    padding-right: 25px;
     justify-content: space-around;
+    align-items: center;
     /* gap: 20px; */
 }
 
@@ -708,7 +710,6 @@ br::selection {
     margin: auto;
     margin-top: 20px;
     z-index: 90;
-    padding-right: 25px;
 }
 
 .hello {
@@ -742,7 +743,7 @@ br::selection {
     
     .main__img {
         margin-top: 0px;
-        width: 500px;
+        width: 75%;
         text-align: center;
         align-content: center;
         display: block;
@@ -776,7 +777,7 @@ br::selection {
         margin-right: 0px;
         display: block;
         align-items: center;
-        padding: 0px 10px 0px 40px;
+        padding: 0px 30px 0px 30px;
         font-size: 13px;
     }
 
