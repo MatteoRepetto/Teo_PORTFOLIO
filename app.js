@@ -1,6 +1,6 @@
 const cursor = document.querySelector(".circle");
 const delay = 250;
-const menu = document.querySelector('#mobile-menu');
+const menu = document.querySelector('#mobile-menu', '#see-work');
 const menuLinks = document.querySelector('.navbar__menu');
 
 
