@@ -816,7 +816,7 @@ br::selection {
         align-content: center;
         width: 100%;
         display: block;
-        padding: 0px 0px 0px 30px;
+        padding: 0px 0px 0px 0px;
        
     }
 
