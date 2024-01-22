@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="icon" type="image/x-icon" href="./images/Favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+<body>
+    <nav class="navbar__work">
+        <!-- <div class="navbar__container"> -->
+          <a href="Works.html" id="back__logo"><img src="./images/back.png" alt="back" class="back__button"></a>
+          <p class="navbar__title2">SEE ALL WORKS</p>
+          <div id="mobile-menu"> </div>
+        <!-- </div> -->
+    </nav> 
+
+    <div class="singleWork__content">
+      <div class="intro__part">
+        <div class="Title__tags">
+          <p class="Title__work">PARADOX!</p>
+          <p class="Tags"><b>2024</b> // <b> UI DESIGN </b> - ART DIRECTION - GAME DESIGN - ASSETS DESIGN</p>
+        </div>
+        <div class="Title__texts">
+          <p class="intro__newtext">
+            Since the success in the academic environment as a school project,  Paradox! is currently in develop for a market release. 
+            The current development team, albeit small, is highly versatile with each member contributing to multiple aspects of the project. 
+            As designer, my primary focus is on refining the User Interface (UI) for an enhanced gaming experience.
+            <br>
+
+            <br>
+            DISCLAIMER: The images presented are from a beta version and may not accurately reflect the final version of the game.
+          </p>
+          <p class="intro__resume">
+            <b>Role</b> <br>
+            UI Design, Game Design, Icons and Design system, Art direction <br> 
+            <br>
+            <b>Softwares used </b> <br>
+            Illustrator, Photoshop, Unity <br> 
+            <br>
+            <b>Collaborators</b> <br>
+            Riccardo Rigamondi
+          </p>
+        </div>
+      </div>
+    <div class="Paradox_sketches">
+      <img src="./images/13_paradox/04.png" alt="skecthes" class="Paradox_imgs">
+      <img src="./images/13_paradox/05.png" alt="skecthes" class="Paradox_imgs">
+    </div>
+    <img src="./images/13_paradox/01.jpg" alt="level-selector" class="Paradox_img">  
+    <img src="./images/13_paradox/03.gif" alt="rewards" class="Paradox_img"> 
+    <img src="./images/13_paradox/06.jpg" alt="key config" class="Paradox_img">  
+    <img src="./images/13_paradox/08.jpg" alt="pause" class="Paradox_img">
+    <img src="./images/13_paradox/07.jpg" alt="end-level" class="Paradox_img">  
+    </div>
+
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="./images/Top.png" alt="top" class="topBtn"></button>
+</body>
+
+
+
+
+
+
+
+<script src="app.js"></script>
+<script>
+    // Get the button:
+let mybutton = document.getElementById("toTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</html>

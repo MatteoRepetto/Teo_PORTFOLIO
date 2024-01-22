@@ -129,23 +129,23 @@ document.getElementById("colored__img5").addEventListener('touchend', (event) =>
   document.getElementById("colored__img5").src = './images/06_TODO/00_cover.png'
 })
 
-/* document.getElementById("colored__img6").addEventListener('mouseover', (event) => {
-  document.getElementById("colored__img6").src = './images/08_3D/00_cover3D2.png'
+document.getElementById("colored__img6").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img6").src = './images/13_paradox/00_cover2.png'
   console.log('j')
 })
 
 document.getElementById("colored__img6").addEventListener('mouseout', (event) => {
-  document.getElementById("colored__img6").src = './images/08_3D/00_cover3D.png'
+  document.getElementById("colored__img6").src = './images/13_paradox/00_cover.png'
 })
 
 document.getElementById("colored__img6").addEventListener('touchstart', (event) => {
-  document.getElementById("colored__img6").src = './images/08_3D/00_cover3D2.png'
+  document.getElementById("colored__img6").src = './images/13_paradox/00_cover2.png'
   console.log('j')
 })
 
 document.getElementById("colored__img6").addEventListener('touchend', (event) => {
-  document.getElementById("colored__img6").src = './images/08_3D/00_cover3D.png'
-}) */
+  document.getElementById("colored__img6").src = './images/13_paradox/00_cover.png'
+}) 
 
 document.getElementById("colored__img7").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img7").src = './images/03_Green/00_cover.png'
