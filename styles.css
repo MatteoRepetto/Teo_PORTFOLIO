@@ -1524,6 +1524,10 @@ br::selection {
     width: 85%;
 }
 
+.Paradox__videoOFF {
+    width: 85%;
+}
+
 .Paradox_sketches {
     display: flex;
     justify-content: center;
@@ -2068,6 +2072,10 @@ br::selection {
     }
 
     .Paradox_img{
+        width: 100%;
+    }
+
+    .Paradox__videoOFF {
         width: 100%;
     }
 
