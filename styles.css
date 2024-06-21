@@ -1528,11 +1528,37 @@ br::selection {
     width: 85%;
 }
 
+.Paradox_sketchesTot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 20px;
+    width: 90%;
+}
+
 .Paradox_sketches {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.Paradox__fiera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Paradox_cards {
+    width: 32%;
+}
+
+.Paradox_svilupparty {
+    width: 50%
+    
 }
 
 
@@ -2071,12 +2097,37 @@ br::selection {
         width: 70%;
     }
 
+    .Paradox_sketchesTot {
+        width: 100%;
+    }
+
+    .Paradox_sketches {
+        gap: 10px;
+    }
+
     .Paradox_img{
         width: 100%;
     }
 
     .Paradox__videoOFF {
         width: 100%;
+    }
+
+    .Paradox__fiera {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 120%;
+    }
+    
+    .Paradox_cards {
+        width: 32%;
+    }
+    
+    .Paradox_svilupparty {
+        width: 50%
+        
     }
 
     .poem_img {
