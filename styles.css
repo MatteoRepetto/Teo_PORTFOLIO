@@ -271,6 +271,29 @@ br::selection {
 
 
 @media screen and (max-width: 960px) {
+    .circle {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 0px;
+        height: 0px;
+        background: #ffffff;
+        border-radius: 50%; /*makes cursor circular*/    
+        pointer-events: none;
+        mix-blend-mode: none;
+        z-index: 9999;
+      }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Sora', 'ExtraLight 200'; /*cambia il font*/ 
+        background: #ffffff;
+        cursor: default;
+        scroll-behavior: smooth;
+    }
+
     .navbar {
         padding-left: 0px;
         padding-right: 0;
@@ -412,19 +435,6 @@ br::selection {
 
 @media screen and (max-width: 450px) {
 
-.circle {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 0px;
-    height: 0px;
-    background: #ffffff;
-    border-radius: 50%; /*makes cursor circular*/    
-    pointer-events: none;
-    mix-blend-mode: none;
-    z-index: 9999;
-  }
-
 #navbar__logo {
     text-align: center;
     align-content: left;
@@ -443,15 +453,6 @@ br::selection {
     margin-right: 0px;
 }
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Sora', 'ExtraLight 200'; /*cambia il font*/ 
-    background: #ffffff;
-    cursor: default;
-    scroll-behavior: smooth;
-}
 
 #toTop {
     bottom: 25px; /* Place the button at the bottom of the page */
@@ -2453,6 +2454,10 @@ br::selection {
         margin-right: 0px;
     }
 
+    .navbar__title2{
+        margin-left: 20px;
+    }
+
     .back__button{
         width: 25px;
         margin-left: -25px;
@@ -2496,6 +2501,15 @@ br::selection {
         justify-content: center;
         align-items: center;
         gap: 20px;
+    }
+
+    .Paradox_cards {
+        width: 31%;
+    }
+    
+    .Paradox_svilupparty {
+        width: 48%
+        
     }
 
     .Try__it {
