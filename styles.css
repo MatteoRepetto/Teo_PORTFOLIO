@@ -193,6 +193,7 @@ br::selection {
     display: flex;
     align-items: center;
     list-style: none;
+    padding-right: 0px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -308,7 +309,6 @@ br::selection {
         top: 0;
         left: 0;
         width: 100%;
-        height: 50px;
         padding: 10px; /* Aggiungi spazio tra i contenuti del footer */
         padding-left: 50px;
         padding-right: 50px;
@@ -331,7 +331,8 @@ br::selection {
     }
 
     .navbar__menu {
-        display: grid;
+        padding:30px;
+        /*display: grid;
         grid-template-columns: auto;
         margin: 0;
         width: 100%;
@@ -342,17 +343,17 @@ br::selection {
         height: 50vh;
         z-index: -1;
         background: #ffffff;
-        border-top: 0.5px solid #000000;
-    }
+        border-top: 0.5px solid #000000;*/
+    } 
 
-    .navbar__menu.active {
+    /*.navbar__menu.active {
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
         height: 90vh;
         font-size: 17px;
-    }
+    }*/
 
     #navbar__logo {
         text-align: center;
@@ -394,7 +395,7 @@ br::selection {
         display: flex;
         align-items: center;
         padding: 0px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .navbar__links2 {
@@ -1169,14 +1170,14 @@ br::selection {
         font-weight: 400;
     }
 
-    .download{
+    /*.download{
         display: block;
         margin-top: 20px;
         font-size: 13px;
         font-weight: 200;
         text-decoration: underline;
         margin-bottom: 200px;
-    }
+    } */
 
     .data{
         font-size: 13px;
@@ -1198,14 +1199,14 @@ br::selection {
         padding: 0px;
     }
 
-    .download{
+    /*.download{
         display: block;
         margin-top: 20px;
         font-size: 13px;
         font-weight: 200;
         text-decoration: underline;
         margin-bottom: 200px;
-    }
+    }*/
 }
 
 
