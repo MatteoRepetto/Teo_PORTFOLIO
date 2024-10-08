@@ -1303,6 +1303,7 @@ br::selection {
     flex-wrap: nowrap;
     width: 100%;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .trytheapp {
