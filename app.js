@@ -74,7 +74,7 @@ document.getElementById("colored__img2").addEventListener('touchend', (event) =>
   document.getElementById("colored__img2").src = './images/02_Kryome/00_cover.png'
 })
 
-/* document.getElementById("colored__img3").addEventListener('mouseover', (event) => {
+document.getElementById("colored__img3").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover2.png'
   console.log('j')
 })
@@ -91,7 +91,6 @@ document.getElementById("colored__img3").addEventListener('touchstart', (event) 
 document.getElementById("colored__img3").addEventListener('touchend', (event) => {
   document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover.png'
 })
- */
 
 document.getElementById("colored__img4").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover2.png'
@@ -183,7 +182,7 @@ document.getElementById("colored__img8").addEventListener('touchend', (event) =>
   document.getElementById("colored__img8").src = './images/09_vacanze/00_cover.png'
 }) */
 
-document.getElementById("colored__img9").addEventListener('mouseover', (event) => {
+/*document.getElementById("colored__img9").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover2.png'
   console.log('j')
 })
@@ -199,7 +198,7 @@ document.getElementById("colored__img9").addEventListener('touchstart', (event) 
 
 document.getElementById("colored__img9").addEventListener('touchend', (event) => {
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover.png'
-})
+})*/
 
 document.getElementById("colored__img11").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img11").src = './images/10_Cards/00_cover2.png'

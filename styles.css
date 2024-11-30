@@ -1558,8 +1558,43 @@ br::selection {
     width: 50%;
 }
 
+.Paradox_imgs_wife {
+    width: 41%;
+}
+
+.Paradox_imgs_sketch {
+    width: 59%;
+}
+
+.Paradox_capsule {
+    width: 33.3%;
+}
+
+.Paradox_achievements {
+    width: 70%;
+}
+
+.Paradox_subs{
+    align-items: center;
+    width: 50%;
+}
+
+.Paradox_maps {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.Paradox_group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
 .Paradox_img{
-    width: 85%;
+    width: 90%;
 }
 
 .Paradox__videoOFF {
@@ -1572,16 +1607,18 @@ br::selection {
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-    gap: 20px;
-    width: 90%;
+    gap: 0px;
+    width: 80%;
 }
 
 .Paradox_sketches {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
 }
+
+
 
 .Paradox__fiera {
     display: flex;
@@ -1963,8 +2000,8 @@ br::selection {
         display: flex;
         padding: 150px 50px 70px 50px;
         justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
+        align-items: center;
+        align-content: center;
         gap: 80px;
         flex-wrap: wrap;
         width: 100%;
@@ -2139,8 +2176,16 @@ br::selection {
         width: 100%;
     }
 
-    .Paradox_sketches {
+    .Paradox_group {
         gap: 10px;
+    }
+
+    .Paradox_maps {
+        gap:10px;
+    }
+
+    .Paradox_achievements {
+        width: 100%;
     }
 
     .Paradox_img{
@@ -2164,8 +2209,11 @@ br::selection {
     }
     
     .Paradox_svilupparty {
-        width: 50%
-        
+        width: 50%   
+    }
+
+    .Paradox_subs {
+        width: 75%;
     }
 
     .poem_img {
@@ -2476,8 +2524,8 @@ br::selection {
         padding-top: 120px;
         padding-bottom: 100px;
         justify-content: center;
-        align-items: flex-start;
-        align-content: flex-start;
+        align-items: center;
+        align-content: center;
         gap: 80px;
         flex-wrap: wrap;
     }
@@ -2537,7 +2585,7 @@ br::selection {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 0px;
     }
 
     .Paradox_cards {
@@ -2546,7 +2594,26 @@ br::selection {
     
     .Paradox_svilupparty {
         width: 48%
-        
+    }
+
+    .Paradox_imgs_wife {
+        width: 100%;
+    }
+
+    .Paradox_imgs_sketch {
+        width: 100%;
+    }
+
+    .Paradox_subs {
+        width: 90%;
+    }
+
+    .Paradox_maps {
+        flex-direction: column;
+    }
+
+    .Paradox_capsule {
+        width: 100%;
     }
 
     .Try__it {
