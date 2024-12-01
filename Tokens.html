@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="icon" type="image/x-icon" href="./images/Favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+<body>
+    <nav class="navbar__work">
+        <!-- <div class="navbar__container"> -->
+          <a href="Works.html" id="back__logo"><img src="./images/back.png" alt="back" class="back__button"></a>
+          <p class="navbar__title2">SEE ALL WORKS</p>
+          <div id="mobile-menu"> </div>
+        <!-- </div> -->
+    </nav> 
+    
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="./images/Top.png" alt="top" class="topBtn"></button>
+
+    <div class="singleWork__content">
+        <div class="intro__part">
+            <div class="Title__tags">
+              <p class="Title__work">MAGIC THE GATHERING TOKENS</p>
+              <p class="Tags"><b>2024</b> // <b>CARD DESIGN</b> - ILLUSTRATION - LAYOUT DESIGN - DIGITAL ART</p>
+            </div>
+            <div class="Title__texts">
+              <p class="intro__newtext">
+                Tokens made for the card game “Magic the Gathering.” In addition to personally taking care of the illustrations, 
+                I also customized the layout of the cards, both front and back. They are divided into three sets, which differ 
+                from each other in style and concpet: the first set are Ligurian folklore-themed tokens made for the Savona Pauper League, 
+                followed then by the “Golden age” set (inspired by tarot aesthetics) and “Journey” (inspired by backroom fiction).
+              </p>
+              <p class="intro__resume">
+                <b>Role</b> <br>
+                Illustrator, Layout design. <br> 
+                <br>
+                <b>Softwares used </b> <br>
+                Clip studio paint, Procreate. <br> 
+                <br>
+              </p>
+            </div>
+        </div>
+
+        <div class="Token_group">
+          <div class="Token_line">
+            <img class="Token" src="./images/14_tokens/01.png" alt="food">
+            <img class="Token" src="./images/14_tokens/02.png" alt="samurai">
+            <img class="Token" src="./images/14_tokens/03.png" alt="monarch">
+          </div>
+          <div class="Token_line">
+            <img class="Token_pic1" src="./images/14_tokens/04.png" alt="monarch">
+            <img class="Token_pic2" src="./images/14_tokens/05.png" alt="pic">
+          </div>
+        </div>
+
+        <div class="Token_group">
+          <div class="Token_line">
+            <img class="Token" src="./images/14_tokens/06.png" alt="food">
+            <img class="Token" src="./images/14_tokens/07.png" alt="samurai">
+            <img class="Token" src="./images/14_tokens/08.png" alt="monarch">
+          </div>
+          <div class="Token_line">
+            <img class="Token_pic2" src="./images/14_tokens/10.png" alt="monarch">
+            <img class="Token_pic1" src="./images/14_tokens/09.png" alt="pic">
+          </div>
+        </div>
+
+        <div class="Token_group">
+          <div class="Token_line">
+            <img class="Token2" src="./images/14_tokens/11.png" alt="food">
+            <img class="Token2" src="./images/14_tokens/12.png" alt="samurai">
+            <img class="Token2" src="./images/14_tokens/13.png" alt="monarch">
+            <img class="Token2" src="./images/14_tokens/14.png" alt="monarch">
+          </div>
+          <div class="Token_line">
+            <img class="Token_pic3" src="./images/14_tokens/15.png" alt="monarch">
+            <img class="Token_pic4" src="./images/14_tokens/16.png" alt="pic">
+          </div>
+        </div> 
+    </div>
+    </div>
+        
+</body>
+
+    <script src="app.js"></script> 
+        <script>
+                // Get the button:
+            let mybutton = document.getElementById("toTop");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+</html>

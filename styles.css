@@ -1956,6 +1956,47 @@ br::selection {
     width: 1000px;
 }
 
+/*Token group*/
+.Token_group {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Token_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Token {
+    width: 60%;
+}
+
+.Token2 {
+    width: 45%;
+}
+
+.Token_pic1 {
+    width: 56%;
+}
+
+.Token_pic2 {
+    width: 129%;
+}
+
+.Token_pic3 {
+    width: 110%;
+}
+
+.Token_pic4 {
+    width: 73%;
+}
+
 @media screen and (max-width: 960px) {
     .intro__part {
         place-content: flex-start;
@@ -2498,6 +2539,30 @@ br::selection {
         width: 100%;
         margin-bottom: -30px;
     }
+
+    .Token {
+        width: 65%;
+    }
+    
+    .Token2 {
+        width: 50%;
+    }
+    
+    .Token_pic1 {
+        width: 59%;
+    }
+    
+    .Token_pic2 {
+        width: 137%;
+    }
+    
+    .Token_pic3 {
+        width: 121%;
+    }
+    
+    .Token_pic4 {
+        width: 81%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -2679,6 +2744,38 @@ br::selection {
     
     .Cards_print2 {
         height: 225px;
+    }
+
+    .Token_line {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Token {
+        width: 150%;
+    }
+    
+    .Token2 {
+        width: 150%;
+    }
+
+    .Token_pic1 {
+        width: 130%;
+    }
+    
+    .Token_pic2 {
+        width: 129%;
+    }
+    
+    .Token_pic3 {
+        width: 140%;
+    }
+    
+    .Token_pic4 {
+        width: 141%;
     }
     
 }
