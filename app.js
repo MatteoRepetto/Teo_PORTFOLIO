@@ -1,4 +1,4 @@
-const cursor = document.querySelector(".circle");
+/* const cursor = document.querySelector(".circle");*/
 const delay = 250;
 const menu = document.querySelector('#mobile-menu', '#see-work');
 const menuLinks = document.querySelector('.navbar__menu');
@@ -11,7 +11,7 @@ menu.addEventListener('click', function() {
 });
 
 // Controlla nouvo cursore
-function throttle(callback, limit) {
+/* function throttle(callback, limit) {
   let wait = false;
   return function () {
     if (!wait) {
@@ -22,13 +22,13 @@ function throttle(callback, limit) {
       }, limit);
     }
   };
-}
+} */
 
 // window.resize callback function
-function getDimensions(e) {
+/* function getDimensions(e) {
   cursor.style.top = `${e.clientY - 10}px`;
   cursor.style.left = `${e.clientX - 10}px`;
-}
+} */
 
 
 // window.resize event listener

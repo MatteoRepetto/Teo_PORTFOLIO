@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Sora', 'ExtraLight 200'; /*cambia il font*/ 
     background: #ffffff;
-    cursor: none;
+    cursor: cell;
     scroll-behavior: smooth;
 }
 
@@ -58,18 +58,18 @@ br::selection {
     color: #ffffff;
 }
 
-.circle {
+/* .circle {
     position: fixed;
     left: 0;
     top: 0;
     width: 17px;
     height: 17px;
     background: #ffffff;
-    border-radius: 50%; /*makes cursor circular*/    
+    border-radius: 50%; /*makes cursor circular   
     pointer-events: none;
     mix-blend-mode: difference;
     z-index: 9999;
-  }
+  } */
 
 #toTop {
     display: none; /* Hidden by default */
@@ -295,7 +295,7 @@ br::selection {
         padding: 0;
         font-family: 'Sora', 'ExtraLight 200'; /*cambia il font*/ 
         background: #ffffff;
-        cursor: default;
+        cursor: cell;
         scroll-behavior: smooth;
     }
 
