@@ -259,5 +259,47 @@ document.getElementById("colored__img13").addEventListener('touchend', (event) =
 
 })
 
+document.getElementById("colored__img14").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img14").src = './images/15_MKWorld/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img14").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img14").src = './images/15_MKWorld/00_cover.png'
+
+})
+
+document.getElementById("colored__img14").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img14").src = './images/15_MKWorld/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img14").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img14").src = './images/15_MKWorld/00_cover.png'
+
+})
+
+document.getElementById("colored__img15").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img15").src = './images/16_VSS/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img15").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img15").src = './images/16_VSS/00_cover.png'
+
+})
+
+document.getElementById("colored__img15").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img15").src = './images/16_VSS/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img15").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img15").src = './images/16_VSS/00_cover.png'
+
+})
+
+
+
 
 

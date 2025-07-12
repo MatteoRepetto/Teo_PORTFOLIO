@@ -914,6 +914,7 @@ br::selection {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px; 
+    width: 100%;
 }
 
 .works__line {
@@ -1966,6 +1967,15 @@ br::selection {
     gap: 30px;
 }
 
+.Token_groupParadox {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 .Token_line {
     display: flex;
     align-items: center;
@@ -1995,6 +2005,19 @@ br::selection {
 
 .Token_pic4 {
     width: 73%;
+}
+
+/*VSS group*/
+
+.vss__imgcontainer {
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vss__img {
+    width: 70%;
 }
 
 @media screen and (max-width: 960px) {
@@ -2226,7 +2249,7 @@ br::selection {
     }
 
     .Paradox_achievements {
-        width: 100%;
+        width: 80%;
     }
 
     .Paradox_img{
@@ -2778,4 +2801,7 @@ br::selection {
         width: 141%;
     }
     
+    .vss__img {
+    width: 100%;
+}
 }
