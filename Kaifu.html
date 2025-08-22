@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="icon" type="image/x-icon" href="./images/Favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+
+<body>
+    <nav class="navbar__work">
+        <!-- <div class="navbar__container"> -->
+          <a href="Works.html" id="back__logo"><img src="./images/back.png" alt="back" class="back__button"></a>
+          <p class="navbar__title2">SEE ALL WORKS</p>
+          <div id="mobile-menu"> </div>
+        <!-- </div> -->
+    </nav> 
+    
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="./images/Top.png" alt="top" class="topBtn"></button>
+
+    <div class="singleWork__content">
+        <div class="intro__part">
+            <div class="Title__tags">
+              <p class="Title__work">KAIFŪ - GAME UX/UI</p>
+              <p class="Tags"><b>2025</b> // <b>UX/UI DESIGN </b> - CONCEPT ART - USER RESEARCH - DESIGN SYSTEM</p>
+            </div>
+            <div class="Title__texts">
+              <p class="intro__newtext">
+                Kaifū is a fictional video game project I designed as a UX/UI case study, blending my passion for games with visual storytelling.
+                The title meaning sea breeze in Japanese, explores a fantasy world inspired by the landscapes of Liguria, my home region, 
+                reimagined through the lens of Japanese culture, hip-hop influences, and anime aesthetics. In this project, I present the creative process 
+                behind the game's user experience and interface design: from early wireframes to the final prototype. I also include concept art and visual 
+                explorations that shaped the project's mood and identity. <br> 
+                <br>
+                DISCLAIMER: Some of the images used in the UI were AI-generated, and the final personas' template were reviewed with AI. For a detailed overview of which ones, please refer to the “Figma Overview” link at the bottom of this page.
+              </p>
+              <p class="intro__resume">
+                <b>Role</b> <br>
+                User research, UI design, prototyping. <br> 
+                <br>
+                <b>Softwares used </b> <br>
+                Figma, Photoshop, Chat GPT. <br> 
+                <br>
+              </p>
+            </div>
+          </div>
+      
+            <img src="./images/17_Kaifu/01.png" alt="Noli" class="Kaifu__logo">
+             <div class="KAIFUimg__container">
+                <img src="./images/17_Kaifu/02.png" alt="GDD" class="Kaifu__img">
+                <img src="./images/17_Kaifu/03.png" alt="GDD" class="Kaifu__img">
+                <img src="./images/17_Kaifu/04.png" alt="GDD" class="Kaifu__img">
+                <img src="./images/17_Kaifu/05.png" alt="GDD" class="Kaifu__img">
+             </div>
+
+          <div class="Try__it">
+            <a href="https://www.figma.com/design/sTuaVGEP5S9jzJFq0c1IaV/Kaif%C5%AB?node-id=1-7&t=bjUsZIPqesJL73h8-1" class="extra__link" target="_blank">FIGMA OVERVIEW ➔</a>
+            <div class="trytheapp">
+            <a href="https://www.figma.com/proto/sTuaVGEP5S9jzJFq0c1IaV/Kaif%C5%AB?page-id=147%3A1404&node-id=147-1405&viewport=-19%2C330%2C0.04&t=pkxWQOdy7mMyQn90-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=147%3A1405&show-proto-sidebar=1" class="extra__link" target="_blank">TRY THE PROTOTYPE! ➔</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="app.js"></script> 
+    <script>
+        // Get the button:
+    let mybutton = document.getElementById("toTop");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+</html>

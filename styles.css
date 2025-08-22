@@ -1295,7 +1295,7 @@ br::selection {
 
 .singleWork__content {
     display: flex;
-    padding: 150px 50px 70px 50px;
+    padding: 100px 50px 150px 50px;
     justify-content: center;
     align-items: center;
     align-content: flex-start;
@@ -1404,7 +1404,6 @@ br::selection {
 .Try__it {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     gap: 56px;
 }
 
@@ -2018,6 +2017,23 @@ br::selection {
 
 .vss__img {
     width: 70%;
+}
+
+/*KAIFU group*/
+
+.KAIFUimg__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Kaifu__img {
+    width: 90%;
+}
+
+.Kaifu__logo {
+    width: 60%;
 }
 
 @media screen and (max-width: 960px) {
@@ -2802,6 +2818,13 @@ br::selection {
     }
     
     .vss__img {
-    width: 100%;
-}
+        width: 100%;
+    }
+
+    .Kaifu__logo {
+        width: 100%;
+    }
+    .Kaifu__img {
+        width: 100%;
+    }
 }
