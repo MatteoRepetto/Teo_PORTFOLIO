@@ -1764,7 +1764,7 @@ br::selection {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
 }
 
 .EIF_img {
