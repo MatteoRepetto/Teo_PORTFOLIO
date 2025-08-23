@@ -912,7 +912,7 @@ br::selection {
 .works__container {
     display: inline-flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px; 
     width: 100%;
 }
