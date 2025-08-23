@@ -92,7 +92,7 @@ document.getElementById("colored__img3").addEventListener('touchend', (event) =>
   document.getElementById("colored__img3").src = './images/07_ho scritto lettere/00_cover.png'
 }) */
 
-document.getElementById("colored__img4").addEventListener('mouseover', (event) => {
+/*document.getElementById("colored__img4").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover2.png'
   console.log('j')
 })
@@ -108,7 +108,7 @@ document.getElementById("colored__img4").addEventListener('touchstart', (event) 
 
 document.getElementById("colored__img4").addEventListener('mouseout', (event) => {
   document.getElementById("colored__img4").src = './images/04_Everything is fine/00_cover.png'
-})
+})*/
 
 document.getElementById("colored__img5").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img5").src = './images/06_TODO/00_cover2.png'
@@ -201,7 +201,7 @@ document.getElementById("colored__img9").addEventListener('touchend', (event) =>
   document.getElementById("colored__img9").src = './images/05_Spit It Out/00_cover.png'
 })*/
 
-document.getElementById("colored__img11").addEventListener('mouseover', (event) => {
+/*document.getElementById("colored__img11").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img11").src = './images/17_Kaifu/00_cover2.png'
   console.log('j')
 })
@@ -217,9 +217,9 @@ document.getElementById("colored__img11").addEventListener('touchstart', (event)
 
 document.getElementById("colored__img11").addEventListener('touchend', (event) => {
   document.getElementById("colored__img11").src = './images/17_Kaifu/00_cover.png'
-})
+})*/
 
-document.getElementById("colored__img12").addEventListener('mouseover', (event) => {
+/*document.getElementById("colored__img12").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img12").src = './images/11_Robbin/00_cover2.png'
   console.log('j')
 })
@@ -237,7 +237,7 @@ document.getElementById("colored__img12").addEventListener('touchstart', (event)
 document.getElementById("colored__img12").addEventListener('touchend', (event) => {
   document.getElementById("colored__img12").src = './images/11_Robbin/00_cover.png'
 
-})
+})*/
 
 document.getElementById("colored__img13").addEventListener('mouseover', (event) => {
   document.getElementById("colored__img13").src = './images/14_tokens/00_cover2.png'
@@ -297,6 +297,24 @@ document.getElementById("colored__img15").addEventListener('touchstart', (event)
 document.getElementById("colored__img15").addEventListener('touchend', (event) => {
   document.getElementById("colored__img15").src = './images/16_VSS/00_cover.png'
 
+})
+
+document.getElementById("colored__img16").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img16").src = './images/17_Kaifu/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img16").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img16").src = './images/17_Kaifu/00_cover.png'
+})
+
+document.getElementById("colored__img16").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img16").src = './images/17_Cards/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img16").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img16").src = './images/17_Kaifu/00_cover.png'
 })
 
 
