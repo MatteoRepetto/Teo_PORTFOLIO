@@ -2019,6 +2019,15 @@ br::selection {
     width: 70%;
 }
 
+.vss__groupImgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+}
+
 /*KAIFU group*/
 
 .KAIFUimg__container {
@@ -2814,6 +2823,10 @@ br::selection {
     }
     
     .vss__img {
+        width: 100%;
+    }
+    .vss__groupImgs {
+        flex-direction: column;
         width: 100%;
     }
 
