@@ -292,12 +292,30 @@ document.getElementById("colored__img16").addEventListener('mouseout', (event) =
 })
 
 document.getElementById("colored__img16").addEventListener('touchstart', (event) => {
-  document.getElementById("colored__img16").src = './images/17_Cards/00_cover2.png'
+  document.getElementById("colored__img16").src = './images/17_Kaifu/00_cover2.png'
   console.log('j')
 })
 
 document.getElementById("colored__img16").addEventListener('touchend', (event) => {
   document.getElementById("colored__img16").src = './images/17_Kaifu/00_cover.png'
+})
+
+document.getElementById("colored__img17").addEventListener('mouseover', (event) => {
+  document.getElementById("colored__img17").src = './images/18_League/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img17").addEventListener('mouseout', (event) => {
+  document.getElementById("colored__img17").src = './images/18_League/00_cover.png'
+})
+
+document.getElementById("colored__img17").addEventListener('touchstart', (event) => {
+  document.getElementById("colored__img17").src = './images/18_League/00_cover2.png'
+  console.log('j')
+})
+
+document.getElementById("colored__img17").addEventListener('touchend', (event) => {
+  document.getElementById("colored__img17").src = './images/18_League/00_cover.png'
 })
 
 

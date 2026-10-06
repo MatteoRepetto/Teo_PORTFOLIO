@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teo's PORTFOLIO//WORKS</title>
+    <link rel="icon" type="image/x-icon" href="./images/Favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<div class="circle"></div>
+</head>
+
+
+<body>
+    <nav class="navbar__work">
+        <!-- <div class="navbar__container"> -->
+          <a href="Works.html" id="back__logo"><img src="./images/back.png" alt="back" class="back__button"></a>
+          <p class="navbar__title2">SEE ALL WORKS</p>
+          <div id="mobile-menu"> </div>
+        <!-- </div> -->
+    </nav> 
+    
+    <button onclick="topFunction()" id="toTop" title="Go to top"><img src="./images/Top.png" alt="top" class="topBtn"></button>
+
+    <div class="singleWork__content">
+        <div class="intro__part">
+            <div class="Title__tags">
+              <p class="Title__work">LEAGUE.FUN</p>
+              <p class="Tags"><b>2026</b> // <b>UX/UI WEB DESIGN </b> - WIREFRAMING - ART DIRECTION - UX DESIGN - BRAND DESIGN - UI DESIGN</p>
+            </div>
+            <div class="Title__texts">
+              <p class="intro__newtext">
+                league.fun is a fantasy crypto platform where players can build their own team of cryptocurrencies and compete against other players within leagues. Players with the best-performing teams can win cash prizes based on their results.
+                As UI Designer, I was responsible for designing the entire visual interface of the platform, from individual components to complete pages and user flows. I developed the visual identity of the website, including the logo, typography, color palette, and graphic treatments such as the glass effect used throughout the interface. I also designed and organized the complete component library and design system in Figma, ensuring consistency across the entire platform.
+                  <br><br>
+                <b>Deliverable</b> // Crypto fantasy platform pages and design system
+              </p>
+              <p class="intro__resume">
+                <b>Role</b> <br>
+                UI Design - Visual Identity - Design System - Components <br> 
+                <br>
+                <b>Softwares used </b> <br>
+                Figma - Blender <br> 
+                <br>
+                <b>Team</b> <br>
+                Solo project, with Davide Cervetto as supervisor
+                <br>
+                <br>
+                <b>Media</b> <br>
+                Website 
+                <br>
+                <br>
+                <b>Methods</b> <br>
+                Visual research - Moodboarding - Wireframing - UI Design - Design System - Prototyping 
+              </p>
+            </div>
+          </div>
+
+          <div class="Leagueimg__container">
+            <img src="./images/18_League/03.png" alt="Cover" class="League__img">
+            <img src="./images/18_League/01.png" alt="Cover" class="League__img">
+            <img src="./images/18_League/02.png" alt="Cover" class="League__img">
+            <img src="./images/18_League/04.png" alt="Cover" class="League__img">
+            <img src="./images/18_League/05.png" alt="Cover" class="League__img">
+            <img src="./images/18_League/06.png" alt="Cover" class="League__img">
+            <img src="./images/18_League/07.png" alt="Cover" class="League__img">
+          </div>
+    
+</body>
+
+<script src="app.js"></script> 
+    <script>
+        // Get the button:
+    let mybutton = document.getElementById("toTop");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+</html>
